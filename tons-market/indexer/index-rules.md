@@ -17,7 +17,7 @@ Tonscriptions
 | Keys | Required | Description                                        |
 | ---- | -------- | -------------------------------------------------- |
 | p    | yes      | Protocol : tons20 , must be lowercase              |
-| sym  | yes      | symble: the symbol of assert                       |
+| tick | yes      | symble: the symbol of assert                       |
 | op   | yes      | Oeration : deploy                                  |
 | max  | yes      | Max Supply : amount of max supply                  |
 | lim  | yes      | Mint Limit : max amount can be minted peer ordinal |
@@ -26,9 +26,9 @@ Tonscriptions
 Example :&#x20;
 
 ```json
-{
+tons20:,{
     "p":"tons20",
-    "sym":"tons",
+    "tick":"tons",
     "op":"deploy",
     "max":10000000000000000000000,
     "lim":100000000000000000,
@@ -38,24 +38,33 @@ Example :&#x20;
 
 #### Mint
 
-| Keys | Required | Description                         |
-| ---- | -------- | ----------------------------------- |
-| p    | yes      | Protocol : tons , must be lowercase |
-| sym  | yes      | symble: the symbol of assert        |
-| op   | yes      | Oeration : mint                     |
-| amt  | yes      | amount to mint , amt==lim           |
-| id   | yes      | range : 1 \~ max/limit              |
+| Keys | Required | Description                           |
+| ---- | -------- | ------------------------------------- |
+| p    | yes      | Protocol : tons20 , must be lowercase |
+| tick | yes      | symble: the symbol of assert          |
+| op   | yes      | Oeration : mint                       |
+| amt  | yes      | amount to mint , amt==lim             |
+| id   | yes      | range : 1 \~ max/limit                |
 
 Example :&#x20;
 
 ```json
-{
+tons20:,{
     "p":"tons20",
-    "sym":"tons",
+    "tick":"tons",
     "op":"mint",
     "amt":100000000000000000,
     "id":1
 }
 ```
 
-####
+#### Transfer
+
+| Keys | Required | Description                           |
+| ---- | -------- | ------------------------------------- |
+| p    | yes      | Protocol : tons20 , must be lowercase |
+| op   | yes      | Oeration : transfer                   |
+| from | yes      | from : Address of sender              |
+| to   | yes      | to : Address of reciver               |
+| amt  | yes      | amt : amount to transfer              |
+
