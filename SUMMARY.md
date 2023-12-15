@@ -6,3 +6,7 @@
 
 * [Indexer](tons-market/indexer/README.md)
   * [Index rules](tons-market/indexer/index-rules.md)
+
+## TonsMarketBot
+
+* [Tons Market Bot](tonsmarketbot/tons-market-bot.md)
