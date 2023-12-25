@@ -10,3 +10,8 @@
 ## TonsMarketBot
 
 * [Tons Market Bot](tonsmarketbot/tons-market-bot.md)
+
+## Links
+
+* [Twitter](https://twitter.com/home)
+* [TonsMarketBot](https://t.me/tonsmarket\_bot?start=nano)
