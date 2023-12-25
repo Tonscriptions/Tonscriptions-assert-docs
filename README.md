@@ -10,3 +10,6 @@ description: This is about the all you needs to know about Tonscriptions
 
 Tonscriptions are a new way of minting asserts on TON base on tansaction `payload` .
 
+
+
+Welcome to follow us in [X](https://twitter.com/home)
